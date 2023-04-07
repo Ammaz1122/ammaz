@@ -1,14 +1,36 @@
+.table-data th,td{
+    border: 3px solid #ddd;
+    padding: 12px;
+    margin-left: 20px;
+    width: 20rem;
+border-collapse: collapse;
+
+}
+
+th{
+    color: red;
+    text-align: center;
+ 
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+
+
+td{
+    text-align: center;
+}
+
+
 .contact-us{
 
     /* border: 2px solid red; */
    background-image: url(../images/form-background.jpg);
    background-repeat: no-repeat;
    background-size:  cover;
+   /* position: fixed; */
    width: 50%;
    height: 100%;
    margin: auto;
-   
- 
 }
 
 .contact-heading{
@@ -32,7 +54,7 @@
     text-transform: capitalize;     
 }
 .input-name{
-    margin-top: 8px;
+ margin-top: 8px;
 border-radius: 5px;
 width: 20rem;
 padding-left: 5px;
@@ -106,7 +128,7 @@ height: 2rem;
 
 .submit{
     
-    text-align: center;
+    text-align: left;
     /* border: 2px solid red; */
     margin-top: 20px;
 }
